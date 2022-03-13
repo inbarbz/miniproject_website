@@ -1,0 +1,79 @@
+.skill {
+    border: 1px solid #50a9d1;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: auto;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1.33333em;
+    padding: 7px 18px;
+    margin-top: 0.8em;
+    border-radius: 8px;
+  }
+  
+  .design {
+    border-color: #86BE91;
+  }
+  
+  #resume {
+    background-color: #ddd;
+    height: auto;
+    margin-top: -30px;
+    padding-top: 60px;
+    font-size: 19px;
+    line-height: 34px;
+  }
+  
+  #resume.inner {
+    width:700px;
+  }
+  
+  img.icon {
+    width: 65px;
+    height: 65px;
+    float: left;
+    display: block;
+    margin-left: 95px;
+    margin-top: 5px;
+    padding-right: 5px;
+    filter: grayscale(100%);
+    
+  }
+  
+  img.icon:hover {
+    filter: grayscale(0%);
+    filter: none;
+  }
+  
+
+  .right{
+    right:1px;
+    position: absolute;
+    width:15em;
+  }
+
+  .title{
+    font-family:"montserrat";
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(114, 119, 116);
+    padding-left: 5px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+
+}
+
+hr{
+  padding-right: 5px;
+  padding-left: 5px;
+  color: rgb(114, 119, 116);
+  width:80%;
+}
+.details{
+  padding-left: 150px;
+}
+.courses{
+  list-style:circle;
+}

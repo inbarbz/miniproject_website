@@ -6,7 +6,6 @@ table {
 
 table th {
     width: 50%;
-    padding: 2px;
 }
 
 .pimage {
@@ -15,12 +14,12 @@ table th {
 
 table tr {
     width: 100%;
+    padding:0px;
 
 }
 
 .ptitle{
-    font-family:"montserrat"
-    font-family: 'Segoe UI';
+    font-family:"montserrat";
     font-weight: bold;
     font-size: 1.5em;
     text-align: left;

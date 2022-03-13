@@ -1,6 +1,8 @@
 
   #logo {
     float: left;
+    padding-bottom: 2px;
+    padding-top: 2px;
   }
   /* ~~ Top Navigation Bar ~~ */
   
@@ -37,7 +39,7 @@
   }
   
   .navigation-bar li a {
-    color: rgb(165, 182, 171);
+    color: rgb(114, 119, 116);
     font-size: 16px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
