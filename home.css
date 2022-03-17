@@ -1,0 +1,30 @@
+.hometitle{
+padding-top: 150px;
+padding-bottom: 20px;
+padding-left: 40px;
+font-size: 200%;
+font-family:"montserrat";
+color: rgb(91,85,84);
+}
+
+.biglogo{
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 100px;
+}
+
+.aboutme{
+    width: 50%;
+}
+.background{
+    right:1px;
+    position: absolute;
+    width:30%;
+}
+.details{
+    padding-left: 40px;
+    font-size: 100%;
+    font-family:"montserrat";
+    color: rgb(91,85,84);  
+}
