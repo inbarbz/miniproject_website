@@ -55,3 +55,43 @@
   .navigation-bar li a:hover{
     color: rgb(32, 26, 14);
 }
+
+.footer-container{
+  text-align: center;
+  background-color: rgb(246,244,242);
+    height: 70px;
+    width: 100%;
+    margin-top: 20px;
+    height: 100px; 
+}
+.footer-container ul {
+  padding-top: 20px;
+  margin: 0px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.footer-container li {
+  list-style-type: none;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.footer-container li a {
+  color: rgb(114, 119, 116);
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+.footer-container  li a:hover {
+  opacity: 0.3;
+}
+
+
+
