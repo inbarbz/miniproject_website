@@ -93,5 +93,21 @@
   opacity: 0.3;
 }
 
-
+.login_button{
+  margin-top: 20px;
+  float: right;
+  background-color: rgb(114, 119, 116);
+  color: white;
+  border-radius:8px;
+  border-color: rgb(114, 119, 116);
+  transition-duration: 0.4s;
+  padding: 10px;
+}
+.login_button:hover{
+  border-color:rgb(114, 119, 116);
+  border-radius: 1px;
+  background-color: white; 
+  border-radius:8px;
+  color: rgb(114, 119, 116);
+}
 
