@@ -12,6 +12,8 @@ color: rgb(91,85,84);
     width: 150px;
 }
 
+/*image display*/
+
 .background{
     width:100%;
     height:750px;
@@ -22,14 +24,15 @@ color: rgb(91,85,84);
     font-size: 140%;
     font-family:"montserrat";
     color: rgb(91,85,84);  
-
-   
+ 
 }
 
 
 th{
     width:50%;
 }
+
+/*contact display*/
 
 .contact{
     text-align: center;

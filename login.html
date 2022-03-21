@@ -32,7 +32,7 @@
     <body>
 
 <!-- The login form -->
-<div id="password message">
+<div id="passwordmessage">
     <h3 class="instructions">Password must contain the following:</h3>
     <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
     <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
@@ -45,6 +45,8 @@
       <input type="text" id="usrname" name="usrname" required>
   <br><br>
       <label for="psw">Password</label>
+ 
+      <!-- Validation -->     
     <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
   
       <input type="submit" value="Submit">

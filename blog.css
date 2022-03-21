@@ -1,32 +1,37 @@
-.blog_post{
-margin-top: 50px;
-width:80%;
-padding-left: 20px;
+.blog_post {
+    margin-top: 50px;
+    width: 80%;
+    padding-left: 20px;
 
 }
 
-legend{
-    background-color:rgb(146, 156, 155); 
+legend {
+    background-color: rgb(146, 156, 155);
     color: white;
 }
-fieldset{
-    background-color: rgb(246,244,242);; 
+
+fieldset {
+    background-color: rgb(246, 244, 242);
+    ;
     border-color: rgb(146, 156, 155);
 }
-.post{
-    background-color:rgb(146, 156, 155); 
-    border-style: none; 
-}
-.content{
-    margin-top: 1%;
-width:90%;
-height: 150px;
-}
-.title{
-    width:30%;
-   
+
+.post {
+    background-color: rgb(146, 156, 155);
+    border-style: none;
 }
 
-input{
+.content {
+    margin-top: 1%;
+    width: 90%;
+    height: 150px;
+}
+
+.title {
+    width: 30%;
+
+}
+
+input {
     margin-left: 10px;
 }
