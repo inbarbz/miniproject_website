@@ -1,5 +1,5 @@
 table {
-    width:100%;
+    width: 100%;
     padding-right: 5%;
     padding-left: 5%;
 }
@@ -10,15 +10,16 @@ table th {
 
 table tr {
     width: 100%;
-    padding:0px;
+    padding: 0px;
 
 }
+
 .pimage {
     width: 70%;
 }
 
-.paragraph{
-    font-family:"montserrat";
+.paragraph {
+    font-family: "montserrat";
     font-weight: normal;
     font-size: 1em;
     text-align: left;
@@ -28,18 +29,20 @@ table tr {
     padding-bottom: 5px;
     text-align: left;
 }
-.title{
-    font-family:"montserrat";
+
+.title {
+    font-family: "montserrat";
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
     color: rgb(114, 119, 116);
     padding-left: 5px;
-   padding-bottom: 10px;
-   padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
 }
-.design{
+
+.design {
     padding-top: 20px;
     text-align: center;
 }

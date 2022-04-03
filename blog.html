@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-        <meta http-equiv="Pragma" content="no-cache" />
-        <meta http-equiv="Expires" content="0" />
-        <link rel="stylesheet" href="reset.css" type="text/css" />
-        <link rel="stylesheet" href="blog.css" type="text/css" />
-        <link rel="stylesheet" href="navbar.css" type="text/css" />
-        <title>my_homepage</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    </head>
-<header>
-<div class="navigation-bar">
-    
-    
-    <div id="navigation-container">
-        <a href="home.html">
-        <img id="logo" src="logo.png" style="width:45px">
-        </a>    
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li> <a href="resume.html">Resume</a> </li>
-            <li><a href="portfolio.html">Portfolio</a> </li>
-            <li><a href="blog.html">Blog</a> </li>
-        </ul>
-        <!--login button-->
-        <button class="login_button" onclick="location.href='login.html'">Login</button>
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="reset.css" type="text/css" />
+    <link rel="stylesheet" href="blog.css" type="text/css" />
+    <link rel="stylesheet" href="navbar.css" type="text/css" />
+    <title>my_homepage</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<header>
+    <div class="navigation-bar">
+
+
+        <div id="navigation-container">
+            <a href="home.html">
+                <img id="logo" src="logo.png" style="width:45px">
+            </a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li> <a href="resume.html">Resume</a> </li>
+                <li><a href="portfolio.html">Portfolio</a> </li>
+                <li><a href="blog.html">Blog</a> </li>
+            </ul>
+            <!--login button-->
+            <button class="login_button" onclick="location.href='login.html'">Login</button>
+
+        </div>
     </div>
-</div>
 </header>
+
 <body>
 
 
-<!--blog post-->
-<form class="blog_post" method="post" >
-    <legend>Blog Post</legend>
-    <fieldset>
-    <label>Blog title</label>
-    <input class="title" type="text" name="submitted_title">
-    <br><br>
-    <label>Blog content</label>
-    <input class="content" type="text" name="submitted_content"> 
-</fieldset>
-<fieldset class="post">
-    <input type="submit"> 
-    <input type="reset"> 
-</fieldset>
-</form>
+    <!--blog post-->
+    <form class="blog_post" method="post">
+        <legend>Blog Post</legend>
+        <fieldset>
+            <label>Blog title</label>
+            <input class="title" type="text" name="submitted_title">
+            <br><br>
+            <label>Blog content</label>
+            <input class="content" type="text" name="submitted_content">
+        </fieldset>
+        <fieldset class="post">
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
 </body>
 
 </html>
